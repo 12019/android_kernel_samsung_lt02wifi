@@ -469,6 +469,13 @@ static struct pxa988_cpu_opt pxa988_op_array_z3ax_lpddr400[] = {
 		.ap_clk_sel = AP_CLK_SRC_PLL2,
 	},
 	{
+		.pclk = 1000,
+		.l2clk = 500,
+		.pdclk = 500,
+		.baclk = 250,
+		.periphclk = 125,
+		.ap_clk_sel = AP_CLK_SRC_PLL3P,
+	{
 		.pclk = 1205,
 		.l2clk = 602,
 		.pdclk = 602,
